@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+.side-background{
+    width: 25vw;
+    height: 100vh;
+    background-image: url(../Photos/bg-main-desktop.png);
+    background-repeat: none;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    position: relative;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-1{
+    width: 30vw;
+    height: 30vh;
+    margin: 0px 0px 40px 0px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    background-image: url(../Photos/bg-card-front.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 35px;
+}
+.card-2{
+    width: 32vw;
+    height: 30vh;
+    position: absolute;
+    left: 200px;
+    top: 520px;
+    background-image: url(../Photos/bg-card-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    padding: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    color: white;
+}
+.card-1 h1{
+    color: white;
+    font-size: 2.3em;
+    letter-spacing: 4px;
+    margin: 120px 0px 0px 0px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+    color: white;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 400px;
+}
+.content{
+    width: 35vw;
+    height: 60vh;
+    padding: 30px;
+    margin: 50px 0px 0px 0px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    color:  hsl(270, 1%, 46%);
+    height: 60px;
+    border: 1px solid hsl(270, 3%, 87%);
+    font-size: 1.1em;
+    padding: 10px;
+    margin: 20px 0px 40px 0px;
+    border-radius: 8px;
+}
+label{
+    color: hsl(278, 68%, 11%);
+}
+.exp-date input{
+    width: 80px;
+    margin: 10px 10px 0px 0px;
+}
+.caption label{
+    margin: 0px 10px 0px 0px;
+}
+.cvc-box input{
+    width: 385px;
+    margin: 10px 0px 0px 20px;
+}
+.cvc-box label{
+    margin: 0px 0px 0px 20px;
+}
+.cvc-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-input{
+    display: flex;
+    align-items: center;
+}
+button{
+    width: 100%;
+    height: 60px;
+    margin: 50px 0px 0px 0px;
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 8px;
+    font-size: 1.3em;
+}
